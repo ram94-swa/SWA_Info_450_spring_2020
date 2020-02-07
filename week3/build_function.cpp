@@ -23,13 +23,14 @@ char  get_user_input(){
    //Implement this function
    char letter;
    cin >> letter;
+   return letter;
 }
 void to_upper_case(char &letter){
    //Implement this function
+   //letter = toupper(letter);
    
-   if(islower(letter))
-        {
-            letter = toupper(letter);
-            cout << letter;
-        }
-}
+        letter = toupper(letter);
+        cout << letter;
+  
+  
+  }
