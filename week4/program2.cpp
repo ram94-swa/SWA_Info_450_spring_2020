@@ -1,6 +1,6 @@
 #include<iostream>
-using namespace std;
 
+//this program is not working as intended. Will work on it more. 
 int main()
 {
     int Names=30; int Char=20;
