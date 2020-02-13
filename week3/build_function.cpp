@@ -32,5 +32,4 @@ void to_upper_case(char &letter){
         letter = toupper(letter);
         cout << letter;
   
-  
   }
