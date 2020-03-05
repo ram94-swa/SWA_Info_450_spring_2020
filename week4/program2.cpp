@@ -3,7 +3,7 @@
 //this program is not working as intended. Will work on it more. 
 int main()
 {
-    int Names=30; int Char=20;
+    int Names=30; int Char=100;
     int i,j;
     char students[Names][Char];
 
@@ -11,6 +11,7 @@ int main()
 {
     for(j=0;j<Char;j++){
     cout<<"please enter student for index" << i <<":"<<endl; 
+    cin.getline(students[j],100);
 }
 for(i=0;i<Names;i++)
 {
