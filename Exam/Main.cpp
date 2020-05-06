@@ -25,9 +25,9 @@ void printMenu()
  */
 int main()
 {
-    // Create Savings account
+    // Create a Savings account
     Savings s("Saving", 1l, 100.0);
-    // Create Checking account
+    // Create a Checking account
     Checking c("Checking", 2l, 100.0);
 
     // Create Credit Card account
